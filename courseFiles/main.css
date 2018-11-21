@@ -1,0 +1,9 @@
+html, body {
+  font-family: Google Sans;
+  font-size: 1.2em;
+}
+
+body {
+  margin: 20px;
+  padding: 20px;
+}

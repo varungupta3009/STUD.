@@ -74,12 +74,14 @@
       <li><a class="active" href="home">Home</a></li>
       <li><a href="courses">Courses</a></li>
       <li><a href="about">About</a></li>
+      <li><a href="aboutPES">About PES</a></li>
       <li style="float: right"><a href="profile"><?php echo $linkName; ?></a></li>
     </ul>
     <div class="main">
       <h1>A PLACE TO <span class="stud">STUD.</span>Y</h1>
       <h2><span class="stud">STUD.</span> is a place where you can find an immense amount of resources to study which are extremely organized and available for free.</h2>
       <h3>STUD. is designed from the ground up. It is handcoded using pure HTML, CSS and JavaScript. No code was copied from the internet. It is safe to say that it is pure, and quite bug-free.</h3>
+      Care was taken to make the website free of any glitches or bugs. We ensured that the website we were building was perfect rather than filled with content.<br>
     </div>
   </body>
   <script type="text/javascript">
