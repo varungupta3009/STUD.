@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="\stud\favicon.ico">
+    <link rel="stylesheet" href="\stud\css\master.css">
+    <style media="screen">
+      html, body {
+        /*text-align: center;
+        font-family: Product Sans;*/
+        height: 100%;
+        font-size: 1.2em;
+      }
+
+      body {
+        display: flex;
+        text-align: center;
+        color: #f44336;
+      }
+
+      .error {
+        margin: auto;
+      }
+
+      img {
+        margin: 50px;
+      }
+    </style>
+    <title>OOPS!</title>
+  </head>
+
+  <body class="fade-out" oncontextmenu="return false;" ondragstart="return false;" ondrop="return false;">
+    <div class="error">
+      <img src="\stud\media\Error 404.png" />
+      <h1>OOPS! You missed the target!</h1>
+      <h2>But don't worry, we'll show you the way</h2>
+      <h3 style="color: grey;">Redirecting to Home...</h3>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    window.onload = function() {
+      document.body.className = ""
+      var sec = 5
+      setInterval(function() {
+        document.querySelector("h3").innerHTML = "Redirecting to Home in " + sec
+        sec--
+        if (!sec) {
+          window.location = "\\stud\\pages\\home"
+        }
+      }, 1000)
+    }
+  </script>
+
+</html>

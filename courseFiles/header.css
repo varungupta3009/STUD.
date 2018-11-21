@@ -1,0 +1,11 @@
+html {
+  text-align: center;
+  font-family: Google Sans;
+}
+
+a {
+  margin: 20px;
+  padding: 10px;
+  color: grey;
+  text-decoration: none;
+}
