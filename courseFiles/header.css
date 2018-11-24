@@ -3,9 +3,14 @@ html {
   font-family: Google Sans;
 }
 
+body {
+  background-color: #f44336;
+  color: #FFFFFF;
+}
+
 a {
   margin: 20px;
   padding: 10px;
-  color: grey;
+  color: #FFFFFF;
   text-decoration: none;
 }
